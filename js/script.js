@@ -1,3 +1,16 @@
+// Determine year for copyright notice
+document.addEventListener("DOMContentLoaded", function() {
+    var copyright = document.getElementById("copyright");
+
+    function setCopyrightDate() {
+        const currentDate = new Date();
+        const currentYear = currentDate.getFullYear();
+        copyright.textContent = "© " + currentYear + " JH.codes";
+    }
+
+    setCopyrightDate();
+});
+
 var programCode = function(processingInstance) {
     with (processingInstance) {
       size(599, 600);
