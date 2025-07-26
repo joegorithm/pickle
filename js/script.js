@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", function() {
     function setCopyrightDate() {
         const currentDate = new Date();
         const currentYear = currentDate.getFullYear();
-        copyright.textContent = "© " + currentYear + " JH.codes";
+        copyright.innerHTML = "© " + currentYear + ` <a href="https://jh.codes" target="_blank">jh.codes</a>`;
     }
 
     setCopyrightDate();

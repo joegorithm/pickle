@@ -38,3 +38,12 @@ canvas {
     padding-top: 10px;
     padding-bottom: 10px;
 }
+
+#copyright a {
+    color: white;
+    transition: color 200ms ease;
+}
+
+#copyright a:hover {
+    color: rgb(102, 213, 42);
+}
